@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+    
+</head>
+<body>
+    <!-- navbar-->
+    <nav class="navbar">
+        <a href="index.html" <span class="navbar-logo">Developer</span> </a>
+        <div class="nav-links">
+            <a href="#home" class="nav-link nav-link-active">HOME</a>
+            <a href="#portfolio" class="nav-link">WORK</a>
+            <a href="#about" class="nav-link">ABOUT</a>
+            <a href="#contact" class="nav-link">CONTACT</a>
+            <a href="https://drive.google.com/file/d/17P7CQYXeeOeE5kz5OhBabp77L_BmQAeL/view?usp=share_link" class="nav-link" download>RESUME</a>
+        </div>
+        <button class="nav-link-btn" onclick="openFullScreenNav()"><img src="Img/menu.png" alt="menu"></button>
+    </nav>
+    <!-- navbar -->
+
+<!-- introduction to skills -->
+<div class="section-hero" id="home">
+
+    <h1>Hi 👋🏻</h1>
+    <h1>My Name is Tejas Awagan</h1>
+    <h1>I can</h1>
+    <h1 class="t-gradient1" data-text="DESIGN">DESIGN</h1>
+    <h1 class="t-gradient2" data-text="CODE">CODE</h1>
+    <h1 class="t-gradient3" data-text="DEVELOPE WEBSITES">CREATE WEBSITES</h1>
+
+ </div>
+</div>
+<!-- introduction to skills -->
+
+<!-- section: technologies -->
+<div class="section-technologies" id="tech">
+    <div class="section-headings">
+        <h1 class="heading-stroke-only">Technologies</h1>
+        <h1>I Know</h1>
+    </div>
+
+    <div class="row">
+        <div class="col"><img class="tech-icon-img" src="Img/html.png" alt="img"></div>
+        <div class="col"><img class="tech-icon-img" src="Img/css.png" alt="img"></div>
+        <div class="col"><img class="tech-icon-img" src="Img/javascript.png" alt="img"></div>
+        <div class="col"><img class="tech-icon-img" src="Img/react.png" alt="img"></div>
+    </div>
+
+    
+    <div class="row mt-80">
+        
+        <div class="col"><img src="Img/cplusplus.png" alt="img" class="tech-icon-img"></div>
+        <div class="col"><img src="Img/java.png" alt="img" class="tech-icon-img"></div>
+        <div class="col"><img src="Img/python.png" alt="img" class="tech-icon-img"></div>
+    </div>  
+
+    <div class="row mt-80">
+        
+        <div class="col"><img src="Img/sql.svg" alt="img" class="tech-icon-img"></div>
+        <div class="col"><img src="Img/git.png" alt="img" class="tech-icon-img"></div>
+        <div class="col"><img src="Img/github.png" alt="img" class="tech-icon-img"></div>
+    </div>
+
+</div>
+<!-- section: technologies -->
+    
+<!-- section: portfolio -->
+    <div class="section-portfolio" id="portfolio">
+        <div class="section-headings">
+            <h1 class="heading-stroke-only">Work</h1>
+            <h1>Portfolio</h1>
+        </div>
+
+
+        <div class="section-portfolio-grid">
+            <a class="portfolio-card" href="https://github.com/TejasAwagan/Online-Jewellery-Shop-Management">
+                <img src="Img/JewelleryShop.png" alt="img">
+                <div class="portfolio-card-details">
+                    <h4>Online Jewellery Shop Management System</h4>
+                </div>
+            </a>
+            <a class="portfolio-card" href="https://github.com/TejasAwagan/Note-Taking-App">
+                <img src="Img/NotesApp.png" alt="img">
+                <div class="portfolio-card-details">
+                    <h4>Notes Taking Web App</h4>
+                </div>
+            </a>
+            
+        </div>
+
+        <a href="https://github.com/TejasAwagan" target="_blank" data-text="GITHUB" class="link-more">Github</a><br><br>
+        <a href="https://www.linkedin.com/in/tejas-awagan-ab9789218" target="_blank" data-text="LINKEDIN" class="link-more">Linkedin</a>
+    </div>
+<!-- section: portfolio -->
+
+    <!-- section:about -->
+     <div class="section-about" id="about">
+        <div class="section-headings">
+            <h1 class="heading-stroke-only">About</h1>
+            <h1>Me</h1>
+        </div>
+
+        <div class="section-about-details">
+            
+            <div class="section-about-texts">
+                <p>
+                    👋🏻 Hello and welcome to my Portfolio! My Name is Tejas, and I am a passionate and dedicated web developer. Currently pursuing my Master's degree in Computer Applications (MCA). With a strong foundation in web development and a drive for continuous learning, I strive to create engaging and intuitive digital experiences.
+                </p><br>
+                <p>I define myself by the work I want to do. I prefer to keep learning, continue challenging myself, and do interesting things that matter.</p>
+            </div>
+
+        </div>
+    </div>
+    <!-- section:about -->
+
+<!-- section: contact -->
+<div class="section-contact" id="contact">
+    <div class="section-headings">
+        <h1 class="heading-stroke-only">Contact</h1>
+        <h1>US</h1>
+    </div>
+
+    <div >
+        <a class="contact-link" href="mailto:tejas.awagan29@gmail.com">
+            tejas.awagan29@gmail.com 
+        </a> 
+
+        <div >
+            <form action="https://formspree.io/f/mdovvpzr" method="POST">
+                <label>Enter Email</label><br>
+                <input type="email" id="fname" name="firstname" placeholder="Your Name..">
+                <br>
+                <label>Message</label><br>
+                <textarea  class="select" id="subject" name="subject" placeholder="Write something.." ></textarea>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+       
+        
+    </div>
+</div>
+<!-- section: contact -->
+
+</body>
+</html>
